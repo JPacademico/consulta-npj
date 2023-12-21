@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +8,34 @@
 body{
     width: 100vw;
     height: 100vh;
-    padding-top: 300px;
     background-color: #6BB77B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
 }
 
+input{
+    margin-bottom: 10px;
+}
+
+h1{
+    margin-bottom: 40px;
+}
+
+div{
+    text-align: center;
+}
+
+.col-md-12{
+    text-align: left;
+}
+
+.infos{
+    opacity: 0.7;
+}
+
+input:disabled{
+    cursor: not-allowed;
+}

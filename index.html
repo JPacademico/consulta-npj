@@ -8,63 +8,59 @@
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-    <div class="row">
-        <div class="col-md-4">
+    <div>
+        <h1><strong>Busca CNPJ</strong></h1>
+    </div>
 
-        </div>
         <div class="col-md-4">
             <div class="form-group row">
                 <div class="col-md-12">
                     <label for="cnpj"><strong>CNPJ</strong></label>
-                    <input type="text" class="form-control" onblur="validaCnpj(this.value)" data-mask="00.000.000/0000-00" id="cnpj">
+                    <input type="text" placeholder="..." class="form-control" onblur="validaCnpj(this.value)" data-mask="00.000.000/0000-00" id="cnpj">
                 </div>
             </div>
 
             <div class="form-group row">
                 <div class="col-md-6">
-                    <label for="">Razão Social</label>
-                    <input type="text" class="form-control" id="razao">
+                    <label for="" class="infos"><strong>Razão Social</strong></label>
+                    <input type="text" class="form-control" id="razao" disabled>
                 </div>
                 <div class="col-md-6">
-                    <label for="">Nome Fantasia</label>
-                    <input type="text" class="form-control" id="fantasia">
-                </div>
-            </div>
-            <div class="form-group row">
-                <div class="col-md-6">
-                    <label for="">Abertura</label>
-                    <input type="text" class="form-control" id="abertura">
-                </div>
-                <div class="col-md-6">
-                    <label for="">Situação da Empresa</label>
-                    <input type="text" class="form-control" id="situacao">
+                    <label for="" class="infos"><strong>Nome Fantasia</strong></label>
+                    <input type="text" class="form-control" id="fantasia" disabled>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-md-6">
-                    <label for="">Endereço</label>
-                    <input type="text" class="form-control" id="endereco">
+                    <label for="" class="infos"><strong>Abertura</strong></label>
+                    <input type="text" class="form-control" id="abertura" disabled>
                 </div>
                 <div class="col-md-6">
-                    <label for="">Município</label>
-                    <input type="text" class="form-control" id="municipio">
+                    <label for="" class="infos"><strong>Situação da Empresa</strong></label>
+                    <input type="text" class="form-control" id="situacao" disabled>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-md-6">
-                    <label for="">Estado</label>
-                    <input type="text" class="form-control" id="estado">
+                    <label for="" class="infos"><strong>Endereço</strong></label>
+                    <input type="text" class="form-control" id="endereco" disabled>
                 </div>
                 <div class="col-md-6">
-                    <label for="">Telefone</label>
-                    <input type="text" class="form-control" id="telefone">
+                    <label for="" class="infos"><strong>Município</strong></label>
+                    <input type="text" class="form-control" id="municipio" disabled>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-6">
+                    <label for="" class="infos"><strong>Estado</strong></label>
+                    <input type="text" class="form-control" id="estado" disabled>
+                </div>
+                <div class="col-md-6">
+                    <label for="" class="infos"><strong>Telefone</strong></label>
+                    <input type="text" class="form-control" id="telefone" disabled>
                 </div>
             </div>
         </div>
-        <div class="col-md-4">
-            
-        </div>
-    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
